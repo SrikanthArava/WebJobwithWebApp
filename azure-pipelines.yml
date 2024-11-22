@@ -51,8 +51,8 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'SID subscription (0151c365-f598-44d6-b4fd-e2b6e97cb2a7)'
+    azureSubscription: 'MCAPS-Support-REQ-78745-2024-v-bajagadish (bb7639c3-3203-4645-8ea6-f25fc013245c)'
     appType: 'webApp'
-    WebAppName: 'valleywebappjob'
+    WebAppName: 'webjobdeploy'
     packageForLinux: '$(Agent.BuildDirectory)/**/*.zip'
     WebConfigParameters: '**/appsettings.json'
