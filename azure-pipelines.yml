@@ -53,9 +53,9 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'MCAPS-Support-REQ-78745-2024-v-bajagadish (bb7639c3-3203-4645-8ea6-f25fc013245c)'
     appType: 'webApp'
-    WebAppName: 'webjobdeploy'
+    WebAppName: 'sampleappservice1212'
     deployToSlotOrASE: true
-    ResourceGroupName: 'webrg'
-    SlotName: 'stag'
+    ResourceGroupName: 'webjobrg'
+    SlotName: 'dev'
     packageForLinux: '$(Agent.BuildDirectory)/**/*.zip'
     WebConfigParameters: '**/appsettings.json'
